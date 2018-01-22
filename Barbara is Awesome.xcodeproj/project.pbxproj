@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7516F18E20162A9C0019B2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516F18D20162A9C0019B2B0 /* AppDelegate.swift */; };
+		7516F19020162A9C0019B2B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516F18F20162A9C0019B2B0 /* ViewController.swift */; };
+		7516F19320162A9C0019B2B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7516F19120162A9C0019B2B0 /* Main.storyboard */; };
+		7516F19520162A9C0019B2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7516F19420162A9C0019B2B0 /* Assets.xcassets */; };
+		7516F19820162A9C0019B2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7516F19620162A9C0019B2B0 /* LaunchScreen.storyboard */; };
+		7516F1A320162A9C0019B2B0 /* Barbara_is_AwesomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516F1A220162A9C0019B2B0 /* Barbara_is_AwesomeTests.swift */; };
+		7516F1AE20162A9C0019B2B0 /* Barbara_is_AwesomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7516F1AD20162A9C0019B2B0 /* Barbara_is_AwesomeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7516F19F20162A9C0019B2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7516F18220162A9C0019B2B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7516F18920162A9C0019B2B0;
+			remoteInfo = "Barbara is Awesome";
+		};
+		7516F1AA20162A9C0019B2B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7516F18220162A9C0019B2B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7516F18920162A9C0019B2B0;
+			remoteInfo = "Barbara is Awesome";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7516F18A20162A9C0019B2B0 /* Barbara is Awesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barbara is Awesome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7516F18D20162A9C0019B2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7516F18F20162A9C0019B2B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7516F19220162A9C0019B2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7516F19420162A9C0019B2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7516F19720162A9C0019B2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7516F19920162A9C0019B2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7516F19E20162A9C0019B2B0 /* Barbara is AwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Barbara is AwesomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7516F1A220162A9C0019B2B0 /* Barbara_is_AwesomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbara_is_AwesomeTests.swift; sourceTree = "<group>"; };
+		7516F1A420162A9C0019B2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7516F1A920162A9C0019B2B0 /* Barbara is AwesomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Barbara is AwesomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7516F1AD20162A9C0019B2B0 /* Barbara_is_AwesomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barbara_is_AwesomeUITests.swift; sourceTree = "<group>"; };
+		7516F1AF20162A9C0019B2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7516F18720162A9C0019B2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516F19B20162A9C0019B2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516F1A620162A9C0019B2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7516F18120162A9C0019B2B0 = {
+			isa = PBXGroup;
+			children = (
+				7516F18C20162A9C0019B2B0 /* Barbara is Awesome */,
+				7516F1A120162A9C0019B2B0 /* Barbara is AwesomeTests */,
+				7516F1AC20162A9C0019B2B0 /* Barbara is AwesomeUITests */,
+				7516F18B20162A9C0019B2B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7516F18B20162A9C0019B2B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7516F18A20162A9C0019B2B0 /* Barbara is Awesome.app */,
+				7516F19E20162A9C0019B2B0 /* Barbara is AwesomeTests.xctest */,
+				7516F1A920162A9C0019B2B0 /* Barbara is AwesomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7516F18C20162A9C0019B2B0 /* Barbara is Awesome */ = {
+			isa = PBXGroup;
+			children = (
+				7516F18D20162A9C0019B2B0 /* AppDelegate.swift */,
+				7516F18F20162A9C0019B2B0 /* ViewController.swift */,
+				7516F19120162A9C0019B2B0 /* Main.storyboard */,
+				7516F19420162A9C0019B2B0 /* Assets.xcassets */,
+				7516F19620162A9C0019B2B0 /* LaunchScreen.storyboard */,
+				7516F19920162A9C0019B2B0 /* Info.plist */,
+			);
+			path = "Barbara is Awesome";
+			sourceTree = "<group>";
+		};
+		7516F1A120162A9C0019B2B0 /* Barbara is AwesomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7516F1A220162A9C0019B2B0 /* Barbara_is_AwesomeTests.swift */,
+				7516F1A420162A9C0019B2B0 /* Info.plist */,
+			);
+			path = "Barbara is AwesomeTests";
+			sourceTree = "<group>";
+		};
+		7516F1AC20162A9C0019B2B0 /* Barbara is AwesomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7516F1AD20162A9C0019B2B0 /* Barbara_is_AwesomeUITests.swift */,
+				7516F1AF20162A9C0019B2B0 /* Info.plist */,
+			);
+			path = "Barbara is AwesomeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7516F18920162A9C0019B2B0 /* Barbara is Awesome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7516F1B220162A9C0019B2B0 /* Build configuration list for PBXNativeTarget "Barbara is Awesome" */;
+			buildPhases = (
+				7516F18620162A9C0019B2B0 /* Sources */,
+				7516F18720162A9C0019B2B0 /* Frameworks */,
+				7516F18820162A9C0019B2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barbara is Awesome";
+			productName = "Barbara is Awesome";
+			productReference = 7516F18A20162A9C0019B2B0 /* Barbara is Awesome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7516F19D20162A9C0019B2B0 /* Barbara is AwesomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7516F1B520162A9C0019B2B0 /* Build configuration list for PBXNativeTarget "Barbara is AwesomeTests" */;
+			buildPhases = (
+				7516F19A20162A9C0019B2B0 /* Sources */,
+				7516F19B20162A9C0019B2B0 /* Frameworks */,
+				7516F19C20162A9C0019B2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7516F1A020162A9C0019B2B0 /* PBXTargetDependency */,
+			);
+			name = "Barbara is AwesomeTests";
+			productName = "Barbara is AwesomeTests";
+			productReference = 7516F19E20162A9C0019B2B0 /* Barbara is AwesomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7516F1A820162A9C0019B2B0 /* Barbara is AwesomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7516F1B820162A9C0019B2B0 /* Build configuration list for PBXNativeTarget "Barbara is AwesomeUITests" */;
+			buildPhases = (
+				7516F1A520162A9C0019B2B0 /* Sources */,
+				7516F1A620162A9C0019B2B0 /* Frameworks */,
+				7516F1A720162A9C0019B2B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7516F1AB20162A9C0019B2B0 /* PBXTargetDependency */,
+			);
+			name = "Barbara is AwesomeUITests";
+			productName = "Barbara is AwesomeUITests";
+			productReference = 7516F1A920162A9C0019B2B0 /* Barbara is AwesomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7516F18220162A9C0019B2B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Barbara Cleary";
+				TargetAttributes = {
+					7516F18920162A9C0019B2B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7516F19D20162A9C0019B2B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7516F18920162A9C0019B2B0;
+					};
+					7516F1A820162A9C0019B2B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7516F18920162A9C0019B2B0;
+					};
+				};
+			};
+			buildConfigurationList = 7516F18520162A9C0019B2B0 /* Build configuration list for PBXProject "Barbara is Awesome" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7516F18120162A9C0019B2B0;
+			productRefGroup = 7516F18B20162A9C0019B2B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7516F18920162A9C0019B2B0 /* Barbara is Awesome */,
+				7516F19D20162A9C0019B2B0 /* Barbara is AwesomeTests */,
+				7516F1A820162A9C0019B2B0 /* Barbara is AwesomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7516F18820162A9C0019B2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516F19820162A9C0019B2B0 /* LaunchScreen.storyboard in Resources */,
+				7516F19520162A9C0019B2B0 /* Assets.xcassets in Resources */,
+				7516F19320162A9C0019B2B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516F19C20162A9C0019B2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516F1A720162A9C0019B2B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7516F18620162A9C0019B2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516F19020162A9C0019B2B0 /* ViewController.swift in Sources */,
+				7516F18E20162A9C0019B2B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516F19A20162A9C0019B2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516F1A320162A9C0019B2B0 /* Barbara_is_AwesomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516F1A520162A9C0019B2B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516F1AE20162A9C0019B2B0 /* Barbara_is_AwesomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7516F1A020162A9C0019B2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7516F18920162A9C0019B2B0 /* Barbara is Awesome */;
+			targetProxy = 7516F19F20162A9C0019B2B0 /* PBXContainerItemProxy */;
+		};
+		7516F1AB20162A9C0019B2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7516F18920162A9C0019B2B0 /* Barbara is Awesome */;
+			targetProxy = 7516F1AA20162A9C0019B2B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7516F19120162A9C0019B2B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7516F19220162A9C0019B2B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7516F19620162A9C0019B2B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7516F19720162A9C0019B2B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7516F1B020162A9C0019B2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7516F1B120162A9C0019B2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7516F1B320162A9C0019B2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barbara is Awesome/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aliis.Barbara-is-Awesome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7516F1B420162A9C0019B2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barbara is Awesome/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aliis.Barbara-is-Awesome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7516F1B620162A9C0019B2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barbara is AwesomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aliis.Barbara-is-AwesomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barbara is Awesome.app/Barbara is Awesome";
+			};
+			name = Debug;
+		};
+		7516F1B720162A9C0019B2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barbara is AwesomeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aliis.Barbara-is-AwesomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barbara is Awesome.app/Barbara is Awesome";
+			};
+			name = Release;
+		};
+		7516F1B920162A9C0019B2B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barbara is AwesomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aliis.Barbara-is-AwesomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Barbara is Awesome";
+			};
+			name = Debug;
+		};
+		7516F1BA20162A9C0019B2B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Barbara is AwesomeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aliis.Barbara-is-AwesomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Barbara is Awesome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7516F18520162A9C0019B2B0 /* Build configuration list for PBXProject "Barbara is Awesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7516F1B020162A9C0019B2B0 /* Debug */,
+				7516F1B120162A9C0019B2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7516F1B220162A9C0019B2B0 /* Build configuration list for PBXNativeTarget "Barbara is Awesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7516F1B320162A9C0019B2B0 /* Debug */,
+				7516F1B420162A9C0019B2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7516F1B520162A9C0019B2B0 /* Build configuration list for PBXNativeTarget "Barbara is AwesomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7516F1B620162A9C0019B2B0 /* Debug */,
+				7516F1B720162A9C0019B2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7516F1B820162A9C0019B2B0 /* Build configuration list for PBXNativeTarget "Barbara is AwesomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7516F1B920162A9C0019B2B0 /* Debug */,
+				7516F1BA20162A9C0019B2B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7516F18220162A9C0019B2B0 /* Project object */;
+}
